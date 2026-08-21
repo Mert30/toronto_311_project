@@ -83,7 +83,7 @@ A binary classification model was built to predict whether a request is at risk 
 1. Toronto-wide, income shows only a weak and statistically insignificant relationship with overall 311 closure rate.
 2. When broken down by request type, several categories show significant, opposite-direction correlations — suggesting the income–service relationship is category-dependent rather than uniform.
 3. Higher-income wards generate substantially more 311 requests per capita/per ward even after normalization, a pattern that should not be read as evidence of worse service in lower-income areas without further investigation (e.g. digital access, housing type).
-4. In the predictive model, [fill in: state which feature ranked highest in `importance_df` — likely service request type or division rather than income] was the strongest predictor of closure risk, suggesting request category matters more than neighborhood income alone.
+4. In the predictive model, [Type_enc: state which feature ranked highest in `importance_df` — likely service request type or division rather than income] was the strongest predictor of closure risk, suggesting request category matters more than neighborhood income alone.
 
 ## Limitations
 
