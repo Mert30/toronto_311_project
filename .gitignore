@@ -1,1 +1,5 @@
-/data
+# .gitignore
+toronto_311_venv/
+*.pyc
+__pycache__/
+data/
